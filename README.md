@@ -1,5 +1,4 @@
-# grizzly_lga
-Grizzly bear landscape genetics analysis for the southern Canadian Rocky Mountains
+# Grizzly bear landscape genetics analysis for the southern Canadian Rocky Mountains
 
 This repository includes data and code for reproducing analyses in the following article, accepted for publication in Molecular Ecology:
 
