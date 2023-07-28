@@ -1,4 +1,4 @@
-# Landscape genetics and connectivity analysis for grizzly bears in the southern Canadian Rocky Mountains
+# Landscape genetics and connectivity analysis for grizzly bears in the Rocky Mountains in southeast British Columbia and southwest Alberta, Canada
 
 This repository includes data and code for reproducing analyses in the following article, accepted for publication in *Molecular Ecology*:
 
