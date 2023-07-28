@@ -8,7 +8,7 @@ by Eric Palm, Erin Landguth, Zachary Holden, Casey Day, Clayton Lamb, Paul Frame
 
 Enclosed are data and code to do the steps outlined below. The actual GPS locations of grizzly bear genetic samples are not included at the request of data owners. Therefore, steps that require spatial locations (covariate extractions along straight lines and least cost paths between pairwise locations) use example datasets with randomly generated locations. All other steps use real data from the analysis.
 
-Please open the “grizzly_lga.Rproj” file to start RStudio before opening individual code files to ensure that relative file paths in the code work correctly.
+Please open the `grizzly_lga.Rproj` file to start RStudio before opening individual code files to ensure that relative file paths in the code work correctly.
 
 1)	Use a raw example dataset with animal IDs, genotypes, and spatial coordinates, and create a pairwise dataset for analysis.
 2)	Use the example pairwise dataset created in Step 1 and extract covariate values along straight lines between pairwise locations.
