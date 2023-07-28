@@ -6,8 +6,6 @@ This repository includes data and code for reproducing analyses in the following
 by Eric Palm, Erin Landguth, Zachary Holden, Casey Day, Clayton Lamb, Paul Frame, Andrea Morehouse, Garth Mowat, Michael Proctor, Michael Sawaya, Gordon Stenhouse, Jesse Whittington, Katherine Zeller
 
 
-Enclosed are data and code to do the steps outlined below. The actual GPS locations of grizzly bear genetic samples are not included at the request of data owners. Therefore, steps that require spatial locations (covariate extractions along straight lines and least cost paths between pairwise locations) use example datasets with randomly generated locations. All other steps use real data from the analysis.
-
 Please open the `grizzly_lga.Rproj` file to start RStudio before opening individual code files to ensure that relative file paths in the code work correctly.
 
 Here is a list of code files with descriptions:
@@ -20,6 +18,6 @@ Here is a list of code files with descriptions:
 7)	“prepare_raster_UNICOR.R” – Prepare the final prediction (resistance) surface from the real full dataset model (which included all pairwise geographic distances) for running a resistant kernel connectivity model in UNICOR. Links to the UNICOR user manual are provided in this script.
 
 
-Note: Models in this repository were run using covariate data extracted the same 360-m rasters included in the repository, rather than the 180-m rasters used in the manuscript, to speed up processing times for spatial predictions and UNICOR resistant kernel connectivity models. Therefore, the results from models in this repository differ slightly from those in the manuscript.
+Note: *Models in this repository were run using covariate data extracted the same 360-m rasters included in the repository, rather than the 180-m rasters used in the manuscript, to speed up processing times for spatial predictions and UNICOR resistant kernel connectivity models. Therefore, the results from models in this repository differ slightly from those in the manuscript. The actual GPS locations of grizzly bear genetic samples are not included at the request of data owners. Therefore, steps that require spatial locations (covariate extractions along straight lines and least cost paths between pairwise locations) use example datasets with randomly generated locations. All other steps use real data from the analysis.*
 
 
